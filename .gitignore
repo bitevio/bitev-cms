@@ -1,0 +1,15 @@
+
+node_modules
+package-lock.json
+.env
+rest
+/core
+/core/node_modules
+.VSCODE
+/extensions/*
+!/extensions/.gitkeep 
+/uploads/*
+/prisma/*
+
+!/prisma/example.schema.prisma
+.DS_Store
