@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "@prisma/client": "^4.1.1",
-    "bitev.io": "0.0.3",
+    "bitev.io": "0.0.5",
     "nodemon": "^2.0.19",
     "prisma-json-schema-generator": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@prisma/client": "^4.2.1"
+  },
   "scripts": {
     "init": "npx prisma init --datasource-provider mongodb && npx prisma generate && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
