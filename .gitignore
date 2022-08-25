@@ -8,7 +8,5 @@ rest
 /extensions/*
 !/extensions/.gitkeep 
 /uploads/*
-/prisma/*
-
-!/prisma/example.schema.prisma
+!/uploads/.gitkeep 
 .DS_Store
