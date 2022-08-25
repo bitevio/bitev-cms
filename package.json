@@ -1,11 +1,10 @@
 {
   "name": "bitev-cms",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "nodemon": "^2.0.19",
-    "prisma-json-schema-generator": "^3.0.1"
+    "nodemon": "^2.0.19"
   },
   "devDependencies": {
     "@prisma/client": "^4.2.1"
@@ -16,6 +15,6 @@
     "start": "npx prisma generate && nodemon",
     "dev": "NODE_ENV=dev nodemon & npx prisma studio"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "dev@bitev.io",
+  "license": "MIT"
 }
