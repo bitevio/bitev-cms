@@ -13,8 +13,8 @@
   "scripts": {
     "sync": "npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon"
+    "start": "npx prisma generate && nodemon",
+    "dev": "NODE_ENV=dev nodemon & npx prisma studio"
   },
   "author": "",
   "license": "ISC"
