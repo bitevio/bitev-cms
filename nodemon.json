@@ -1,5 +1,6 @@
 {
   
   "exec": "node bitev.config.js",
-  "ignore": ["README","/prisma/models/*"]
+  "ignore": ["README","/prisma/models/*"],
+  "ext":"js,prisma,json"
 }
