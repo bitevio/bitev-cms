@@ -11,7 +11,7 @@ datasource db {
 }     
 
 
-model User {
+model Users {
   id    String  @id @default(auto()) @map("_id") @db.ObjectId
   email String  @unique
   name  String?
@@ -21,4 +21,12 @@ model User {
   
 }
 
+model Medias {
+    id String @id @default(auto()) @map("_id") @db.ObjectId // For MongoDB
+    description String?
+    filename String
+    url String
+    data Json?
+    details Json? 
+}
 
