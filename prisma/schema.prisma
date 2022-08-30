@@ -28,5 +28,7 @@ model Medias {
     url String
     data Json?
     details Json
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }
 
