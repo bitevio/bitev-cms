@@ -27,6 +27,6 @@ model Medias {
     filename String
     url String
     data Json?
-    details Json? 
+    details Json
 }
 
