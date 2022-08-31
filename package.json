@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "bitev.io": "^0.1.8",
     "nodemon": "^2.0.19"
   },
   "devDependencies": {

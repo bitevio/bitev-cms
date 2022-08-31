@@ -2,10 +2,9 @@
 module.exports={
     models:[
         {
-            name:"users", // Model name in prisma
-            privateFields:[""] // Array of private field to Hide 
+            name:"user", // Model name in prisma
+            privateFields:["email"] // Array of private field to Hide 
         },
        
     ]
 }
-
