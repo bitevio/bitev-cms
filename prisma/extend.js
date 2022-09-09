@@ -1,9 +1,9 @@
-module.exports=(prisma)=>{
+module.exports=({PrismaClient})=>{
 
 
 
 
-    
+
 
 
 
