@@ -25,6 +25,7 @@ model Users {
   password String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  permissions CDA[]
   
 }
 
@@ -38,3 +39,9 @@ model Medias {
     updatedAt DateTime @updatedAt
 }
 
+
+
+type CDA{
+    model String
+    actions String[]
+}
