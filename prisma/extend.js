@@ -4,6 +4,7 @@ module.exports=({PrismaClient})=>{
 
 
 
+const primsa = new PrismaClient({})
 
 
 
@@ -13,7 +14,5 @@ module.exports=({PrismaClient})=>{
 
 
 
-
-
-
+return primsa
 }
