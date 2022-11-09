@@ -1,10 +1,11 @@
+
 module.exports=({PrismaClient})=>{
 
 
 
 
 
-const primsa = new PrismaClient({})
+const prisma = new PrismaClient({})
 
 
 
@@ -14,5 +15,5 @@ const primsa = new PrismaClient({})
 
 
 
-return primsa
+return prisma
 }
