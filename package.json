@@ -5,10 +5,10 @@
   "main": "server.js",
   "dependencies": {
     "bitev.io": "*",
-    "nodemon": "^2.0.19"
+    "nodemon": "*"
   },
   "devDependencies": {
-    "@prisma/client": "^4.2.1"
+    "@prisma/client": "*"
   },
   "scripts": {
     "sync": "npx prisma generate",

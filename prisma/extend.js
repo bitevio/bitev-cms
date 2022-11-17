@@ -1,19 +1,12 @@
 
-module.exports=({PrismaClient})=>{
+module.exports=({PrismaClient,prisma})=>{
 
 
 
 
 
-const prisma = new PrismaClient({})
+prisma = new PrismaClient({})
 
 
 
-
-
-
-
-
-
-return prisma
 }
