@@ -3,6 +3,7 @@
   "version": "2.0.2",
   "description": "",
   "scripts": {
+    "sync": "npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx prisma generate && node bitev.config.js",
     "dev": "NODE_ENV=dev nodemon"
