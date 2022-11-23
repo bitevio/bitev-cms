@@ -1,6 +1,5 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -22,24 +21,6 @@ model Users {
   password String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  
-}
-
-model Medias {
-    id String @id @default(auto()) @map("_id") @db.ObjectId // For MongoDB
-    filename String
-    url String
-    data Json? // Additional data (Object)
-    details Json 
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
 }
 
 
-model ACL {
-  id String @id @default(auto()) @map("_id") @db.ObjectId // For MongoDB
-  owner String @unique
-  permissions Json?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
