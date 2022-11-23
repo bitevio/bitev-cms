@@ -1,6 +1,6 @@
 {
-  
-  "exec": "node bitev.config.js",
-  "ignore": ["README","/prisma/models/*"],
-  "ext":"js,prisma,json"
+  "verbose":false,
+  "exec": "npx prisma generate && node bitev.config.js",
+  "ignore": ["README",".git","node_modules/**/node_modules"],
+  "ext":"js,.env"
 }
