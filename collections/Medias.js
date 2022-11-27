@@ -5,6 +5,10 @@ module.exports= Collection({
        timestamps:true,
        fields:[
         {
+            name:"ref",
+            type:'string'
+        },
+        {
             name:'driver', // ftp , or local
             type:'string'
         },
