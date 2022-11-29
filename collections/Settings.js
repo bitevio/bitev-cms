@@ -1,4 +1,4 @@
-const { Collection } = require("bitev.io/types")
+const { Collection } = require("../core/types")
 module.exports= Collection({
        singleType: true,
        mode:"model",
@@ -17,6 +17,28 @@ module.exports= Collection({
               type:'textarea',
               admin:{
                      label:'Project Description'
+              }
+
+       },
+       {
+              name:'project_logo',
+              type:'media',
+              admin:{
+                     label:'Project Logo'
+              }
+       },
+       {
+              name:'public_background',
+              type:'media',
+              admin:{
+                     label:'Public Background'
+              }
+       },
+       {
+              name:'public_note',
+              type:'string',
+              admin:{
+                     label:'Public note'
               }
 
        },
