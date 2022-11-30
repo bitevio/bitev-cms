@@ -6,7 +6,8 @@
     "sync": "npx prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx prisma generate && node bitev.config.js",
-    "dev": "NODE_ENV=dev nodemon"
+    "dev": "NODE_ENV=dev nodemon",
+    "update":"npx bitev.io@latest update"
   },
 
   "dependencies": {
