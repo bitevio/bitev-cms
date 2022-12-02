@@ -5,6 +5,11 @@ module.exports= Collection({
         {
         name:"name",
         type:"string",
+        unique:true,
+        },
+        {
+            name:'description',
+            type:'textarea'
         },
         {
             name:'permissions',
