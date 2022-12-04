@@ -3,7 +3,8 @@
   "exec": "npx prisma generate && node bitev.config.js",
   "watch":[
     "./.tmp/.pid",
-    "./extensions/"
+    "./extensions/",
+    "./database/"
   ],
   "ignore": ["README",".git","node_modules/**/node_modules"],
   "ext":"js,env,pid"
