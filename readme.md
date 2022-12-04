@@ -15,7 +15,7 @@
 > Le ToolKit JS pour accélerer votre développement backend .\
 > Une multitude de fonctionnalités intéressantes .
 
-## Installation
+## Installation 
 
 ```js
 npx create-bitev-app <projet-name>
