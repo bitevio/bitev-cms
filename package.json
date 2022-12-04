@@ -15,7 +15,8 @@
     "nodemon": "*"
   },
   "devDependencies": {
-    "@prisma/client": "*"
+    "@prisma/client": "*",
+    "prisma":"*"
   },
   "engines": {
     "node": ">=14",
