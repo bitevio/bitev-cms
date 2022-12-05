@@ -1,4 +1,5 @@
-const { Collection } = require("../core/types")
+const { Collection } = require("bitev.io/types")
+
 module.exports= Collection({
        singleType: true,
        mode:"model",
