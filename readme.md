@@ -9,7 +9,7 @@
 
 
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" width="50"/>](image.png)
+[<img src="https://i.ibb.co/nznpfLv/bitev.png" width="50"/>](image.png)
 
 
 > Le ToolKit JS pour accélerer votre développement backend .\
@@ -29,6 +29,19 @@ npm init bitev-app <projet-name>
 - Nodejs <=12 , Nous vous recommandons d'installer la dernière version LTS.
 - Un éditeur de texte, nous recommandons VSCode 
 - Un terminal, nous vous recommandons d'utiliser le terminal intégré de VSCode 
+  
+##### Systèmes supportés :
+
+- Ubuntu LTS/Debian 9.x
+- Windows 10+
+- MacOs
+  
+#### Base de données
+
+- MongoDB>=3.6 
+
+## Démarage
+
 
 > La prochaine étape est de naviguer dans le répertoire et de démarrer notre application :
 

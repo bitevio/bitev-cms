@@ -1,6 +1,6 @@
 {
   "name": "bitev-cms",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "",
   "scripts": {
     "sync": "npx prisma generate",
@@ -29,6 +29,7 @@
       "url": "https://cms.bitev.io"
     }
   ],
+  "homepage": "https://bitev.io",
 
   "repository": {
     "url": "https://github.com/bitevio/bitev-cms"
